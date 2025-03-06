@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 import {IERC20} from "@openzeppelin/contracts/interfaces/IERC20.sol";
+// bUZZ : 0xBd910134a8d7635995b6588d96a025CB5b1E9b7e
+// Buzzing : 0x78a12c2E5f6c24E17638b84Ee5472b794611697b
 
 contract Buzzify {
     IERC20 public token;
