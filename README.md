@@ -37,7 +37,7 @@
     - Users spend significant time and effort creating and engaging with content but often feel that their contributions are undervalued.
 
 
-- **1. Best Overall Application Ethena (BLE)Testnet:** <br/>
+- **1. Monad Testnet:** <br/>
   - BuzziFy Buzz Token(Contract Address ): 0xBd910134a8d7635995b6588d96a025CB5b1E9b7e) :
     https://testnet.monadexplorer.com/token/0xBd910134a8d7635995b6588d96a025CB5b1E9b7e
   - BuzziFy (Contract Address ): 0x78a12c2E5f6c24E17638b84Ee5472b794611697b):
