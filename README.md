@@ -38,7 +38,11 @@
 
 
 - **1. Best Overall Application Ethena (BLE)Testnet:** <br/>
-  - BuzziFy Buzz Token(Contract Address ): 0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87) :
-    https://testnet.explorer.ethena.fi/address/0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87
-  - BuzziFy (Contract Address ): 0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12):
-    https://testnet.explorer.ethena.fi/address/0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12
+  - BuzziFy Buzz Token(Contract Address ): 0xBd910134a8d7635995b6588d96a025CB5b1E9b7e) :
+    https://testnet.monadexplorer.com/token/0xBd910134a8d7635995b6588d96a025CB5b1E9b7e
+  - BuzziFy (Contract Address ): 0x78a12c2E5f6c24E17638b84Ee5472b794611697b):
+    https://testnet.monadexplorer.com/address/0x78a12c2E5f6c24E17638b84Ee5472b794611697b
+  - NFT (Contract Address ): 0xB5e716C45fb8710b4FD519D87b83a455F060B70E):
+    https://testnet.monadexplorer.com/token/0xB5e716C45fb8710b4FD519D87b83a455F060B70E
+  - Conversion Contract (Contract Address ): 0xC908E848d02ebF4534d772d354BE2d1D1d5339a5):
+    https://testnet.monadexplorer.com/address/0xC908E848d02ebF4534d772d354BE2d1D1d5339a5
