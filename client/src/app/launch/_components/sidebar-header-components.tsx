@@ -4,7 +4,7 @@ function RewardHeader(props: any) {
   return (
     <div className="flex gap-x-4 text-white justify-center items-center w-full">
       <button className=" text-white text-md p-2 border border-white font-bold rounded-40 px-6  focus:bg-black focus:text-white">
-        ⚡️ Ethena Campaign
+        ⚡️ Monad Campaign
       </button>
       <button className=" text-white text-md p-2 border border-white font-bold rounded-40 px-6 focus:bg-black focus:text-white">
         ⚡️ More Rewards

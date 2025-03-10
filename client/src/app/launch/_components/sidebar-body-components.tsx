@@ -125,10 +125,10 @@ const BalanceScore: React.FC<BalanceScoreProps> = ({
                   alt="BNB"
                   className="w-6 h-6 mr-2"
                 />
-                <span>ETH</span>
+                <span>MON</span>
               </div>
               <div className="text-right">
-                <p className="font-semibold">0 ETH</p>
+                <p className="font-semibold">0 MON</p>
                 <p className="text-sm text-gray-500">0.00 USD</p>
               </div>
             </div>
@@ -139,11 +139,11 @@ const BalanceScore: React.FC<BalanceScoreProps> = ({
                   alt="MNT"
                   className="w-6 h-6 mr-2"
                 />
-                <span>ETHENA</span>
+                <span>Monad</span>
               </div>
               <div className="text-right">
-                <p className="font-semibold">0 sUSDE</p>
-                <p className="text-sm text-gray-500">0.00 USD</p>
+                <p className="font-semibold">0 Moyaki</p>
+                <p className="text-sm text-gray-500">0.00 Moyaki</p>
               </div>
             </div>
             <div className="flex justify-between items-center">
@@ -383,7 +383,7 @@ transition-colors "
       </div>
 
       <button className="w-full py-2 text-[#4A82ED] font-semibold underline mt-4">
-        <Link href="https://faucet.ethena.fi/" target="_blank">
+        <Link href="https://testnet.monad.xyz/" target="_blank">
           {" "}
           Need USDe Faucet ? →
         </Link>
@@ -641,7 +641,7 @@ function CreatePollBody() {
     media: "",
     metric: "",
     type: "",
-    question: "",
+    question: "How much Comments we will get on this post in the end of week ?",
   });
   const { address } = useAccount();
   let { createPool, getQuestionsFromAi } = useDataContext();
@@ -836,7 +836,7 @@ function CreatePollBody() {
             </button>
           )}
 
-          {questionsData?.length > 0 && (
+          {true && (
             <button
               onClick={handleCreatePoll}
               className="w-full py-3 bg-blue-400 text-gray-800 rounded-md"
