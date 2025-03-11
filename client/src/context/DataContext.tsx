@@ -144,7 +144,7 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
   };
 
   const convertUSDetoBuzz = async (amount: any) => {
-    let id = toast.loading("Converting USDe to BUZZ...");
+    let id = toast.loading("Converting Moyaki to BUZZ...");
     try {
       amount = ethers.utils.parseEther(amount.toString());
       const conversionContract = await getContractInstance(
@@ -173,17 +173,17 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
       if (conversionContract) {
         await conversionContract.convertUSDetoBuzz(amount);
         await getTokenBalance();
-        toast.success("USDe converted to BUZZ successfully", { id });
+        toast.success("Moyaki converted to BUZZ successfully", { id });
         return;
       }
     } catch (error) {
-      console.log("Error in converting USDe to BUZZ", error);
-      toast.error("Error in converting USDe to BUZZ", { id });
+      console.log("Error in converting Moyaki to BUZZ", error);
+      toast.error("Error in converting Moyaki to BUZZ", { id });
     }
   };
 
   const convertBuzztoUSDe = async (amount: any) => {
-    let id = toast.loading("Converting BUZZ to USDe...");
+    let id = toast.loading("Converting BUZZ to Moyaki...");
     try {
       amount = ethers.utils.parseEther(amount.toString());
       const conversionContract = await getContractInstance(
@@ -211,13 +211,13 @@ const DataContextProvider: React.FC<DataContextProviderProps> = ({
       }
       if (conversionContract) {
         await conversionContract.convertBuzztoUSDe(amount);
-        toast.success("BUZZ converted to USDe successfully", { id });
+        toast.success("BUZZ converted to Moyaki successfully", { id });
         await getTokenBalance();
         return;
       }
     } catch (error) {
-      console.log("Error in converting BUZZ to USDe", error);
-      toast.error("Error in converting BUZZ to USDe", { id });
+      console.log("Error in converting BUZZ to Moyaki", error);
+      toast.error("Error in converting BUZZ to Moyaki", { id });
     }
   };
 
