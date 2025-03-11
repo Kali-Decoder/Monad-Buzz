@@ -641,7 +641,7 @@ function CreatePollBody() {
     media: "",
     metric: "",
     type: "",
-    question: "How much Comments we will get on this post in the end of week ?",
+    question: "",
   });
   const { address } = useAccount();
   let { createPool, getQuestionsFromAi } = useDataContext();
@@ -836,7 +836,7 @@ function CreatePollBody() {
             </button>
           )}
 
-          {true && (
+          {questionsData?.length > 0 && (
             <button
               onClick={handleCreatePoll}
               className="w-full py-3 bg-blue-400 text-gray-800 rounded-md"
