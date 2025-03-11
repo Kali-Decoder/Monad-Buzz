@@ -46,3 +46,56 @@
     https://testnet.monadexplorer.com/token/0xB5e716C45fb8710b4FD519D87b83a455F060B70E
   - Conversion Contract (Contract Address ): 0xC908E848d02ebF4534d772d354BE2d1D1d5339a5):
     https://testnet.monadexplorer.com/address/0xC908E848d02ebF4534d772d354BE2d1D1d5339a5
+
+
+
+# 🚀 Project Setup Guide  
+
+## 🖥️ Frontend Setup  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone `https://github.com/Kali-Decoder/Monad-Buzz`
+cd client
+```
+
+### 2️⃣ Install Dependencies  
+```sh
+pnpm install
+```
+
+### 3️⃣ Create Environment File  
+Copy `.env.example` to `.env` and update the necessary variables.  
+
+### 4️⃣ Start the Development Server  
+```sh
+pnpm run dev
+```
+The frontend should now be running at `http://localhost:3000`.  
+
+---
+
+## 🖥️ Backend Setup  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone `https://github.com/Kali-Decoder/Monad-Buzz`
+cd server
+```
+
+### 2️⃣ Install Dependencies  
+```sh
+npm install
+```
+
+### 3️⃣ Set Up Environment Variables  
+Copy `.env.example` to `.env` and configure the required values.  
+
+### 4️⃣ Start the Server  
+```sh
+npm start
+```
+The backend should now be running at `http://localhost:8080` (or your configured port).  
+
+---
+

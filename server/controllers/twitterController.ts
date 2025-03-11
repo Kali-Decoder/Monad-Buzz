@@ -6,7 +6,7 @@ import OpenAI from "openai";
 dotenv.config();
 
 const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.HYPERBOLIC_API_KEY,
   baseURL: "https://api.hyperbolic.xyz/v1",
 });
 

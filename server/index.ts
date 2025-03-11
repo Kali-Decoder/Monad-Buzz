@@ -22,18 +22,18 @@ app.use(express.json());
 //   allowedHeaders: ["Content-Type", "Authorization"]
 // }));
 
-app.use(async (req, res, next) => {
-  const userAddress = req.headers['x-user-address'] as string;
+// app.use(async (req, res, next) => {
+//   const userAddress = req.headers['x-user-address'] as string;
   
-  if (!userAddress) {
-    return res.status(401).json({ error: 'Authentication required' });
-  }
+//   if (!userAddress) {
+//     return res.status(401).json({ error: 'Authentication required' });
+//   }
   
-  // In a real app, you would verify signatures here
-  await getOrCreateUser(userAddress);
-  req.body.userAddress = userAddress;
-  next();
-});
+//   // In a real app, you would verify signatures here
+//   await getOrCreateUser(userAddress);
+//   req.body.userAddress = userAddress;
+//   next();
+// });
 
 
 
