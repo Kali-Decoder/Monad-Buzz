@@ -30,7 +30,7 @@ contract Conversion {
     }
 
     function getUserBalances() public view returns (uint256, uint256) {
-        return (USDe.balanceOf(address(this)), buzz.balanceOf(msg.sender));
+        return (USDe.balanceOf(msg.sender), buzz.balanceOf(msg.sender));
     }
 
     function withdrawFunds(address _token, uint256 _amount) public onlyOwner {

@@ -385,7 +385,7 @@ transition-colors "
       <button className="w-full py-2 text-[#4A82ED] font-semibold underline mt-4">
         <Link href="https://testnet.monad.xyz/" target="_blank">
           {" "}
-          Need USDe Faucet ? →
+          Need Monad Faucet ? →
         </Link>
       </button>
     </div>

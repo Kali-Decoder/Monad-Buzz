@@ -53,7 +53,7 @@ export const dripFaucet = async (
 
     return res.status(200).json({
       message: "Dripped successfully !!!",
-      transaction: `https://testnet.explorer.ethena.fi/tx/${tx.hash}`,
+      transaction: `https://testnet.monadexplorer.com/tx/${tx.hash}`,
     });
   } catch (error) {
     console.log(error);
